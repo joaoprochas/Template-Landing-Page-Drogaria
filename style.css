@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+}
+
+*{
+    transition: 0.3s;
+}
+
+.center{
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.tag{
+    color: var(--secondary-color);
+    font-weight: 400;
+    font-size: 1.5em;
+    text-align: left;
+}
+
+:root{
+    --primary-color: #003282;
+    --secondary-color: #F00A14;
+    --btn-variant: #F0BE00;
+    --a70: color-mix(in srgb, currentColor 70%, transparent);
+    --hover: #910007;
+    --white: #f3f4f6;
+}
